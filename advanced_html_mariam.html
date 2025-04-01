@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariam's Bakery</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+<body>
+    <header>
+        Mariam's Bakery - Sweet Delights!
+    </header>
+    
+    <section>
+        <h2>Our Specialties</h2>
+        <ol type="I">
+            <li>Chocolate Cakes</li>
+            <li>Strawberry Pastries</li>
+            <li>Delicious Muffins</li>
+            <li>Fresh Breads</li>
+            <li>Custom Cakes</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Our Bakery</h2>
+        <img src="https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Delicious Bakery Items" width="500">
+    </section>
+
+    <section>
+        <h2>Our Contacts</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Fatma Mwangi</td>
+                <td>Moi Avenue, Nairobi</td>
+                <td>0734 ******</td>
+                <td>fatma@example.com</td>
+            </tr>
+            <tr>
+                <td>Omollo Ochieng</td>
+                <td>Uhuru Highway, Mombasa</td>
+                <td>0712 ******</td>
+                <td>omollo@mariamscakes.com</td>
+            </tr>
+            <tr>
+                <td>Amina Hassan</td>
+                <td>Kisumu City Center</td>
+                <td>0745 ******</td>
+                <td>amina@mariamscakes.com</td>
+            </tr>
+            <tr>
+                <td>Mutua Kimani</td>
+                <td>Thika Road, Nairobi</td>
+                <td>0701 ******</td>
+                <td>mutua@mariamscakes.com</td>
+            </tr>
+            <tr>
+                <td>Nduta Wanjiru</td>
+                <td>Westlands, Nairobi</td>
+                <td>0798 ******</td>
+                <td>nduta@mariamscakese.com</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Join Mariam's Bakery Family!</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6"><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+            
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+            
+            <label for="role">Preferred Role:</label>
+            <select id="role" name="role" required>
+                <option value="">--Select--</option>
+                <option value="baker">Baker</option>
+                <option value="cashier">Cashier</option>
+                <option value="sales">Sales Representative</option>
+            </select><br><br>
+            
+            <label>Interests:</label><br>
+            <input type="checkbox" id="baking" name="interests" value="baking">
+            <label for="baking">Baking</label>
+            <input type="checkbox" id="marketing" name="interests" value="marketing">
+            <label for="marketing">Marketing</label>
+            <input type="checkbox" id="customer-service" name="interests" value="customer-service">
+            <label for="customer-service">Customer Service</label><br><br>
+            
+            <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
+
